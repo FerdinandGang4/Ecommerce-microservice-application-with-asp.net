@@ -1,6 +1,5 @@
 ﻿using BuildingBlocks.CQRS;
 using CatalogAPI.Model;
-using MediatR;
 
 namespace CatalogAPI.Feuture.CreateProduct
 {
