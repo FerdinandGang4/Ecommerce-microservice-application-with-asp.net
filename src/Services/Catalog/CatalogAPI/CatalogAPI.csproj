@@ -9,7 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Dockerfile" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Carter" Version="10.0.0" />
+    <PackageReference Include="Marten" Version="8.30.1" />
   </ItemGroup>
 
   <ItemGroup>
