@@ -18,8 +18,8 @@
             };
 
             //save to database // this is using the Marten library which transforms the PostgreSQL database to document database
-            session.Store(product);
-            session.SaveChangesAsync(cancellationToken);
+           // session.Store(product);
+          //  session.SaveChangesAsync(cancellationToken);
 
             //return created results
             return new CreateProductResult(product.Id);
